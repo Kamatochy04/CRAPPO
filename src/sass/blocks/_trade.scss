@@ -1,0 +1,121 @@
+.trade{
+    background: linear-gradient(180deg, #F8F9FB 0%, #FAFBFF 100%);
+    padding-bottom: 100px;
+    &__box{
+        margin: 0 auto;
+        width: 942px;
+        border-radius: 0 0 16px 16px;
+        padding: 50px 48px 50px 48px;
+        background: #FFFFFF;
+        box-shadow: 0px 80px 40px #3917772b;
+        border-radius: 0px 0px 16px 16px;
+    }
+    &__time{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 150%;  
+        letter-spacing: 0.04em;
+        text-transform: uppercase; 
+        color: #3671E9;
+    }
+    &__inner{
+        display: flex;
+        margin-top: 50px;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    &__price{
+        margin-top: 15px;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 150%;
+        letter-spacing: 0.04em;
+        color: #0D0D2B;
+        span {
+            color: #3671E9;
+        }
+    }
+    &__box-descr{
+        margin-top: 5px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        letter-spacing: 0.01em;
+        color: #828282;
+    }
+    &__title{
+        width: 740px;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 150%;
+        text-align: center;     
+        color: #0D0D2B;
+        text-align: center;
+        margin:100px auto 0 auto ;
+    }
+    &__block{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 370px;
+        backdrop-filter: blur(125px);        
+        border-radius: 16px;
+        padding: 48px 0 48px 0;
+        background: #2B076E;
+    }
+    &__sercle{
+        width: 80px;
+        height: 80px;
+        border-radius: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #F9AA4B;
+        &-2{
+            background: #1181E8;
+        }
+    }
+    &__block-title{
+        margin-top: 50px;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 150%;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        span{
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 150%;
+            text-align: center;
+            color: #FFFFFF;      
+            opacity: 0.7;
+            margin-left: 8px;
+            margin-top: 5px;
+        }
+    }
+    &__block-text{
+        margin-top: 16px;
+        width: 322px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        text-align: center;
+        letter-spacing: 0.01em;
+        color: #FFFFFF;
+    }
+    &__button{
+        margin-top: 25px;
+    }
+    &__sercle-img{
+        width: 32px;
+        height: 32px;
+        border-radius: 20px;
+        margin-left: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #fff;
+    }
+}

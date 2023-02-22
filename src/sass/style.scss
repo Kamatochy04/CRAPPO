@@ -6,9 +6,11 @@
 @import 'blocks/button';
 @import 'blocks/stat';
 @import 'blocks/aern';
+@import 'blocks/trade';
+@import 'blocks/marcet';
 
 
-ul, li, h1, p, h2{
+ul, li, h1, p, section, body, h2{
     margin: 0;
     padding: 0;
     list-style: none;

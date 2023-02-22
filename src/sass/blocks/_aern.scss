@@ -1,6 +1,6 @@
 .earn{
     position: relative;
-    padding: 100px 0 220px 0;
+    padding: 100px 0 0 0;
     &__title{
         font-weight: 700;
         font-size: 40px;
@@ -19,16 +19,46 @@
         margin-top: 25px;
     }
     &__box{
-        position: absolute;
-        width: 942px;
-        height: 371px;
+        margin: 64px auto 0 auto;
         filter: drop-shadow(0px 20px 200px rgba(57, 23, 119, 0.05));
         background: #fff;
-        left: 50%;
-        transform: translate(-50%, 0);
-        top: 300px;
+        width: 942px;
+        background: #ffffff;
+        border-radius: 16px 16px 0px 0px;
         padding: 50px 48px 50px 48px;
-
+    }
+    &__form {
+        display: flex;
+    }
+    &__input{
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        width: 403px;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 150%;
+        color: #0D0D2B;       
+        mix-blend-mode: normal;font-weight: 400;
+        font-size: 20px;
+        line-height: 150%;
+        color: #0D0D2B;
+        mix-blend-mode: normal;
+    }
+    &__input-num{
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 150%;
+        mix-blend-mode: normal;
+        color: #0D0D2B;       
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        margin-left: 50px;
+        width: 200px;
+    }
+    &__button{
+        margin-left: 80px;
     }
 
 }
