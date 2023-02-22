@@ -1,0 +1,35 @@
+@import 'base/variables';
+
+@import 'blocks/header';
+@import 'blocks/logo';
+@import 'blocks/promo';
+@import 'blocks/button';
+@import 'blocks/stat';
+@import 'blocks/aern';
+
+
+ul, li, h1, p, h2{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+body{
+    font-family: 'Rubik', sans-serif;
+    background-color: #0D0D2B;
+}
+.container{
+    margin: 0 auto;
+    max-width: 1180px;
+    padding: 0 10px;
+}
+*{
+    color: #fff;
+}
+a{
+    text-decoration: none;
+    color:inherit;
+}
+
+button{
+    border: none;
+}
